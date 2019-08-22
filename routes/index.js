@@ -7,6 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.use('/static', require('./static'));
+router.use('/etherscan', require('./etherscan'));
 router.use('/eth', require('./ethproxy'));
 
 module.exports = router;
