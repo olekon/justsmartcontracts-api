@@ -7,8 +7,10 @@ const proxy = require('express-http-proxy');
 const config = require('../config');
 const router = express.Router();
 
-router.use('/main', proxy(config.nodes.mainnet));
-router.use('/rop', proxy(config.nodes.ropsten));
-router.use('/rin', proxy(config.nodes.rinkeby));
+router.use('/mainnet', proxy(config.nodes.mainnet));
+router.use('/ropsten', proxy(config.nodes.ropsten));
+router.use('/rinkeby', proxy(config.nodes.rinkeby));
+router.use('/kovan', proxy(config.nodes.kovan));
+router.use('/goerli', proxy(config.nodes.goerli));
 
 module.exports = router;
