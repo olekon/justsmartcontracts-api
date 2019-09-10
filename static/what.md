@@ -6,8 +6,3 @@ JustSmartContracts.dev was designed for Ethereum developers in first place. But 
 
 
 JustSmartContracts.dev is front-end tool. There is no back-end where your data could leak. Source code is here, feel free to study it.
-
-
-## Known Issues
-1. Array parameters items should be separated with comma
-2. Therefore array parameters might be parsed incorrectly if items themselves contain space or comma
