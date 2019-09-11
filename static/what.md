@@ -5,4 +5,4 @@ JustSmartContracts.dev is a place where you can “bookmark” certain Ethereum 
 JustSmartContracts.dev was designed for Ethereum developers in first place. But anybody can make use of it.
 
 
-JustSmartContracts.dev is front-end tool. There is no back-end where your data could leak. Source code is here, feel free to study it.
+JustSmartContracts.dev is front-end tool. There is no back-end where your data could leak. Source code is [here](https://github.com/olekon/justsmartcontracts), feel free to study it.
